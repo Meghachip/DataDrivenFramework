@@ -81,7 +81,7 @@ public class BaseTest {
 		String browserName = config.getProperty("browser");
 		if (browserName.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver",
-					System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\chromedrive-96.exe");
+					System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\chrome99.exe");
 			driver = new ChromeDriver();
 
 		} else if (browserName.equals("Firefox")) {

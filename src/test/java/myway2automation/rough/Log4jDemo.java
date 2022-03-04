@@ -1,7 +1,7 @@
 package myway2automation.rough;
 
 //import org.apache.log4j.PropertyConfigurator;
-import org.apache.logging.log4j.Logger;
+//import org.apache.logging.log4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class Log4jDemo {

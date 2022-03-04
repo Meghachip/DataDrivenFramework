@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="myway2automation.base.BaseTest">
+      <class name="myway2automation.testcases.logintTest">
         <methods>
           <include name="tearDown"/>
+          <include name="doLoginTest"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- myway2automation.base.BaseTest -->
+      </class> <!-- myway2automation.testcases.logintTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
